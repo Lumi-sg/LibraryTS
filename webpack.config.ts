@@ -1,6 +1,7 @@
-const path = require("path");
+import path from "path";
+import { Configuration } from "webpack/types";
 
-module.exports = {
+const config: Configuration = {
 	entry: "./src/index.ts",
 	module: {
 		rules: [
@@ -11,7 +12,6 @@ module.exports = {
 			},
 			{
 				test: /\.css$/i,
-
 				use: ["style-loader", "css-loader"],
 			},
 		],
@@ -24,3 +24,5 @@ module.exports = {
 		path: path.resolve(__dirname, "dist"),
 	},
 };
+
+export default config;
