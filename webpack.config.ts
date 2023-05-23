@@ -1,7 +1,6 @@
-import path from "path";
-import { Configuration } from "webpack/types";
+const path = require("path");
 
-const config: Configuration = {
+module.exports = {
 	entry: "./src/index.ts",
 	module: {
 		rules: [
@@ -24,5 +23,3 @@ const config: Configuration = {
 		path: path.resolve(__dirname, "dist"),
 	},
 };
-
-export default config;
