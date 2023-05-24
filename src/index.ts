@@ -18,4 +18,3 @@ const defaultBooks: [string, string, number, boolean][] = [
 defaultBooks.forEach((book) => addBook(...book));
 
 addBookModal();
-updateDisplay();
