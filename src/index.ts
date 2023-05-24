@@ -3,6 +3,7 @@ import Book from "./modules/Book";
 import addBook from "./modules/addBook";
 import addBookModal from "./modules/addBookModal";
 import updateDisplay from "./modules/updateDisplay";
+console.log("starting...");
 
 export const myLibrary: Book[] = [];
 
