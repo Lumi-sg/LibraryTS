@@ -10,6 +10,7 @@
 		"allowJs": true,
 		"moduleResolution": "node",
 		"strict": true,
+		"strictNullChecks": false,
 		"allowSyntheticDefaultImports": true,
 		"esModuleInterop": true
 	}
